@@ -142,7 +142,8 @@ nav li a {
     font-size: 1.5rem;
     line-height: 150%;
 }
-.products-container{
+
+.products-container {
     /* margin: 0 auto; */
     /* padding: 0; */
     padding: 0;
@@ -153,10 +154,11 @@ nav li a {
     gap: 30px;
     justify-content: center;
     align-items: center;
-  
+
 }
+
 .product-short {
-    color:  #787885;
+    color: #787885;
     font-family: var(--secondary-font);
     font-size: 14px;
     font-weight: 700;
@@ -215,4 +217,11 @@ nav li a {
         display: flex;
         flex-wrap: wrap;
     }
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+    .products{
+       margin: auto;
+    }
+
 }
