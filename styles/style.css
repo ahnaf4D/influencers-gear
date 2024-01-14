@@ -51,6 +51,20 @@ nav li a {
     align-items: center;
 }
 
+/* Sponsors Styles here */
+.sponsors_container {
+    border-style: solid none solid none;
+    border-color: #F8F9FB;
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.sponsors_container img {
+    padding: 45px 0px;
+}
 .banner-title {
     color: #3A3A3A;
     font-family: Poppins;
@@ -138,5 +152,8 @@ nav li a {
     .prebook {
         max-width: 194px;
         max-height: 44px;
+    }
+    .sponsors_container{
+        flex-wrap: wrap;
     }
 }
