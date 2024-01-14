@@ -217,11 +217,28 @@ nav li a {
         display: flex;
         flex-wrap: wrap;
     }
+
     .products-container {
         grid-template-columns: 1fr;
     }
-    .products{
-       margin: auto;
+
+    .products {
+        margin: auto;
     }
 
+    .pd-title {
+        color: #18191F;
+        font-family: var(--primary-font);
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .price {
+        color: rgba(0, 0, 0, 0.87);
+        font-family: var(--secondary-font);
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 150%;
+    }
 }
