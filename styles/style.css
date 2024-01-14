@@ -10,7 +10,9 @@
     --secondary-font: 'Inter', sans-serif;
     --rare-font: 'Manrope', sans-serif;
 }
-
+button:hover{
+    cursor: pointer;
+}
 /* Nav Styles */
 nav {
     font-family: var(--primary-font);
