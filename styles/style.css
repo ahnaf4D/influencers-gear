@@ -256,5 +256,6 @@ nav li a {
         color: rgba(224, 44, 109, 0.87);
         font-family: var(--primary-font);
         font-weight: 700;
+        margin-top: 32px;
     }
 }
